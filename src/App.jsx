@@ -3,7 +3,8 @@ import "./App.css";
 import Hero from './componenets/hero/Hero';
 import Navbar from './componenets/navbar/Navbar';
 // eslint-disable-next-line no-unused-vars
-import Name from "./componenets/Name/Name";
+import Projects from "./componenets/ProjectsSection/Projects";
+
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
+      <Projects/>
     </>
   )
 }

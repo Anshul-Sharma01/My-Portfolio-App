@@ -1,9 +1,8 @@
-import './Navbar.css';
 
 function Navbar(){
     return(
         <>
-            <div className="hidden md:flex justify-around p-5 items-center sticky top-0 z-10">
+            <div className="hidden md:flex justify-around p-5 mb-2 items-center sticky top-0 left-0 right-0 z-10 bg-black bg-opacity-50 backdrop-blur-md ">
                 <div></div>
                 <ul className="sm:flex  justify-between gap-10 list-none">
                     <li className="hover:border-b-4 hover:border-b-blue-400 duration-75 hover:text-lg"><a href="#">Home</a></li>

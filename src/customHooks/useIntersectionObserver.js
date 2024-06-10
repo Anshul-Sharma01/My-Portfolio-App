@@ -1,4 +1,3 @@
-// useIntersectionObserver.js
 import { useEffect } from "react";
 
 const useIntersectionObserver = (selector) => {
@@ -12,6 +11,7 @@ const useIntersectionObserver = (selector) => {
                 }
             });
         });
+
         const elements = document.querySelectorAll(selector);
         elements.forEach((el) => observer.observe(el));
 
