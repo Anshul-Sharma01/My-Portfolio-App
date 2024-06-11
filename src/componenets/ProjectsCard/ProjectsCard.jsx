@@ -4,7 +4,7 @@ function ProjectsCard({imgSrc, ProjectName, Projectdesc, GithubLink}){
     return(
         <>
             
-            <div className="w-[300px] rounded-md border p-4 bg-[#483D8B] border-6 border-solid">
+            <div className="w-[300px] rounded-md border p-4 bg-[#483D8B] border-6 border-solid hover:bg-blue-600 hover:cursor-pointer">
                 <img
                     src={imgSrc}
                     alt="Project Info"
