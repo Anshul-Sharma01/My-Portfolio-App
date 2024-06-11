@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+    input, textarea {
+        @apply bg-transparent border-violet-500 border-2 p-2 rounded active:border-none placeholder-slate-50;
+    }
+    
+}

@@ -27,7 +27,7 @@ function Hero() {
 
     return (
         <>
-            <section className="flex justify-center items-center hddn_class h-100vh">
+            <section className="flex justify-center items-center hddn_class h-100vh gap-32">
                 <div className="w-1/2 p-8 flex gap-8 ml-12 justify-center items-center">
                     <div className='flex flex-col justify-center items-center mt-5  mr-2 '>
                         <div className='w-5 h-5 rounded-full bg-white'></div>
