@@ -50,7 +50,7 @@ function Hero() {
                     </div>
                 </div>
                 <div className="hero_second_section w-1/2">
-                    <img src="src/assets/coder_kid.png" alt="" />
+                    <img src="https://i.pinimg.com/736x/51/87/bc/5187bc8637e7f1cab56309059539555a.jpg" width="400px" className="rounded-full" alt="" />
                 </div>
             </section>
         </>
