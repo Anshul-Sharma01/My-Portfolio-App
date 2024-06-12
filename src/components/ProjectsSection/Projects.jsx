@@ -12,6 +12,7 @@ function Projects(){
                 <ProjectsCard ProjectName="Blogging-Site" inProgress="true" imgSrc="https://img.freepik.com/free-vector/blogging-fun-content-creation-online-streaming-video-blog-young-girl-making-selfie-social-network-sharing-feedback-self-promotion-strategy_335657-2386.jpg?size=626&ext=jpg" Projectdesc="A blogging site using MERN Stack" GithubLink="https://github.com/Anshul-Sharma01/Blogging-Site"/>
                 <ProjectsCard ProjectName="Learning Management System" inProgress="true" imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-RCPwfu2vuvnGQwfKCNEQadJCXoUqghFaQ&s" Projectdesc="A Learning Management System using MERN Stack in which backend is already implemented , just left with FrontEnd" GithubLink="https://github.com/Anshul-Sharma01/Learning-Management-System--LMS-"/>
                 
+                <ProjectsCard ProjectName="Pokedex Using React JS " inProgress="true" imgSrc="src\assets\Pokedex ui.png" Projectdesc="React Js, Tailwind Css, Axios, Api-Handling, React-Router-Dom" GithubLink="https://github.com/Anshul-Sharma01/Pokedex-React"/>
             </div>
         </div>
     )

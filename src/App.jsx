@@ -1,12 +1,12 @@
 
 import "./App.css";
-import About from "./componenets/About/About";
-import Contact from "./componenets/Contact-Us/Contact";
-import Hero from './componenets/hero/Hero';
-import Navbar from './componenets/navbar/Navbar';
+import About from "./components/About/About";
+import Contact from "./components/Contact-Us/Contact";
+import Hero from './components/hero/Hero';
+import Navbar from './components/navbar/Navbar';
 // eslint-disable-next-line no-unused-vars
-import Projects from "./componenets/ProjectsSection/Projects";
-import TechStack from "./componenets/TechStack/TechStack";
+import Projects from "./components/ProjectsSection/Projects";
+import TechStack from "./components/TechStack/TechStack";
 
 
 function App() {
