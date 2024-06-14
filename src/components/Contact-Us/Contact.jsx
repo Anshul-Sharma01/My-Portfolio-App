@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { FaDiscord, FaGithub, FaLinkedin, FaTelegram, FaVoicemail } from 'react-icons/fa';
 
 function Contact() {
     const [email, setEmail] = useState('');
@@ -43,7 +44,7 @@ function Contact() {
 
     return (
         <>
-            <section className="bg-slate-900">
+            <section className="bg-slate-900 m-50">
                 <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
 
@@ -63,6 +64,89 @@ function Contact() {
                         {error && <div className="text-red-500">{error}</div>}
                         <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
                     </form>
+                </div>
+                <div>
+                    <h2 className=' text-xl tracking-tight font-extrabold text-center text-white pt-1  p-5 m-5'>My Online Presence</h2>
+                    <div className='pb-10'>
+                        <section className="flex gap-10 justify-center items-center">
+                            <a
+                            href="https://github.com/Anshul-Sharma01"
+                            className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413] " target='_blank'
+                        >
+                            <svg
+                            className="w-5"
+                            viewBox="0 0 15 15"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                            <FaGithub/>
+                            </svg>
+                            <span
+                            className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700"
+                            >
+                            GitHub
+                            </span>
+                        </a>
+                        
+                        <a
+                            href="https://www.linkedin.com/in/anshulsharma29/"
+                            className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]" target='_blank'
+                        >
+                            <svg
+                            className="w-5"
+                            viewBox="0 0 15 15"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                            <FaLinkedin/>
+                            </svg>
+                            <span
+                            className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700"
+                            >
+                            LinkedIn
+                            </span>
+                        </a>
+                        
+                        <a
+                            href="https://discord.com/chat/anshulsharma_30663"
+                            className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]" target='_blank'
+                        >
+                            <svg
+                            className="w-5"
+                            viewBox="0 0 15 15"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                            <FaDiscord/>
+                            </svg>
+                            <span
+                            className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700"
+                            >
+                            Discord
+                            </span>
+                        </a>
+                        
+                        <a
+                            href="mailto:sharma.ansh2926@gmail.com"
+                            className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]" target='_blank'
+                        >
+                            <svg
+                            className="w-5"
+                            viewBox="0 0 15 15"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                            <FaVoicemail/>
+                            </svg>
+                            <span
+                            className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700"
+                            >
+                            Email
+                            </span>
+                        </a>
+                        </section>
+
+                    </div>
                 </div>
             </section>
         </>
