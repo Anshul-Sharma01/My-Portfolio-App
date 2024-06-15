@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { CiMail } from 'react-icons/ci';
 import { FaDiscord, FaGithub, FaLinkedin, FaTelegram, FaVoicemail } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function Contact() {
     const [email, setEmail] = useState('');
@@ -32,14 +35,43 @@ function Contact() {
                 setName('');
                 setMessage('');
                 // Display a popup message here
-                alert('Form submitted successfully!');
+                toast.success('Message sent successfully', {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "colored",
+                });
             } else {
                 const data = await response.json();
                 setError(data.error || 'Failed to submit form');
+                toast.error(data.error || 'Failed to submit form', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "colored",
+                });
             }
         } catch (err) {
             console.error('Error submitting form:', err);
             setError('Failed to submit form');
+            toast.error('Failed to submit form', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
         }
     }
 
@@ -151,6 +183,7 @@ function Contact() {
                 </div>
                 
             </section>
+            <ToastContainer/>
         </>
     );
 }
