@@ -2,6 +2,7 @@
 import "./App.css";
 import About from "./components/About/About";
 import Contact from "./components/Contact-Us/Contact";
+import Footer from "./components/Footer/Footer";
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 // eslint-disable-next-line no-unused-vars
@@ -20,6 +21,7 @@ function App() {
       <TechStack/>
       <Projects/>
       <Contact/>
+      
     </>
   )
 }

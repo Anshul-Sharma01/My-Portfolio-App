@@ -77,7 +77,7 @@ function Contact() {
 
     return (
         <>
-            <section className="bg-slate-900 m-50">
+            <section className="bg-slate-900 m-50 hddn_class m-40">
                 <div className='pt-10'>
                     <h2 className=' text-xl tracking-tight font-extrabold text-center text-white pt-1  p-5 m-5'>My Online Presence</h2>
                     <div className='pb-10'>
