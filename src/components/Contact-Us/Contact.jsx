@@ -77,7 +77,7 @@ function Contact() {
 
     return (
         <>
-            <section className="bg-slate-900 m-50 hddn_class m-40">
+            <section className="bg-slate-900 m-50 hddn_class ml-40 mr-40 mt-40">
                 <div className='pt-10'>
                     <h2 className=' text-xl tracking-tight font-extrabold text-center text-white pt-1  p-5 m-5'>My Online Presence</h2>
                     <div className='pb-10'>
@@ -178,7 +178,8 @@ function Contact() {
                             <textarea id="message" rows="6" name='message' value={message} onChange={(e) => setMessage(e.target.value)} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                         </div>
                         {error && <div className="text-red-500">{error}</div>}
-                        <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 hover:bg-blue-900">Send message</button>
+                        <button type="submit"  className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg  sm:w-fit  focus:ring-4 focus:outline-none hover:bg-blue-900 border-solid border-2 border-blue-300">Send message</button>
+                        <p className="text-gray-700">*Your Message will directly reach me via email</p>
                     </form>
                 </div>
                 

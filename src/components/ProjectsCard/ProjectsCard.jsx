@@ -4,21 +4,21 @@ function ProjectsCard({imgSrc, ProjectName, Projectdesc, GithubLink, inProgress 
     return(
         <>
             
-            <div className="w-[300px] rounded-md border p-4 bg-[#483D8B] border-6 border-solid hover:bg-violet-950 hover:cursor-pointer">
+            <div className="w-[300px] rounded-lg border p-4 bg-blue-600 border-6 border-solid hover:bg-violet-950 hover:cursor-pointer">
                 <img
                     src={imgSrc}
                     alt="Project Info"
                     className="h-[200px] border-4 border-black border-solid w-full rounded-md object-cover"
                 />
-                <div className="p-4">
+                <div className="p-4 w-fit">
                     <h1 className="text-xl font-semibold">{ProjectName}{inProgress ? "(In Progress)" : ""}</h1>
-                    <p className="mt-3 text-md text-white">
+                    <p className="mt-3 text-md text-white font-mono">
                     {Projectdesc}
                     </p>
-                    <a href={GithubLink} target="_blank">
+                    <a href={GithubLink}  target="_blank">
                         <button
                         type="button" 
-                        className="mt-4 rounded-sm bg-black px-8 py-3  font-semibold text-xl text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                        className="mt-4 rounded-lg bg-white px-8 py-3  font-semibold text-xl text-blue-500 shadow-sm hover:bg-black/80 hover:border-white hover:border-2 hover:text-white"
                         >
                         Read
                         </button>
