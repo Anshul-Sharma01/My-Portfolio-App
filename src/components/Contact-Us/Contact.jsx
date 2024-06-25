@@ -77,114 +77,113 @@ function Contact() {
 
     return (
         <>
-            <section className="bg-slate-900 m-50 hddn_class ml-40 mr-40 mt-40">
+            <section className="bg-slate-900 mx-auto px-4 py-10 sm:py-20 max-w-screen-lg hddn_class">
                 <div className='pt-10'>
-                    <h2 className=' text-xl tracking-tight font-extrabold text-center text-white pt-1  p-5 m-5'>My Online Presence</h2>
+                    <h2 className='text-2xl sm:text-3xl tracking-tight font-extrabold text-center text-white pt-1 p-5'>My Online Presence</h2>
                     <div className='pb-10'>
-                        <section className="flex gap-10 justify-center items-center">
+                        <section className="flex flex-wrap gap-6 justify-center items-center">
                             <a
-                            href="https://github.com/Anshul-Sharma01"
-                            className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413] " target='_blank'
-                        >
-                            <svg
-                            className="w-5"
-                            viewBox="0 0 15 15"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
+                                href="https://github.com/Anshul-Sharma01"
+                                className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+                                target='_blank'
+                                rel='noopener noreferrer'
                             >
-                            <FaGithub/>
-                            </svg>
-                            <span
-                            className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700"
+                                <FaGithub className="w-5 h-5" />
+                                <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                                    GitHub
+                                </span>
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/anshulsharma29/"
+                                className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+                                target='_blank'
+                                rel='noopener noreferrer'
                             >
-                            GitHub
-                            </span>
-                        </a>
-                        
-                        <a
-                            href="https://www.linkedin.com/in/anshulsharma29/"
-                            className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]" target='_blank'
-                        >
-                            <svg
-                            className="w-5"
-                            viewBox="0 0 15 15"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
+                                <FaLinkedin className="w-5 h-5" />
+                                <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                                    LinkedIn
+                                </span>
+                            </a>
+                            <a
+                                href="https://discordapp.com/users/anshulsharma_30663"
+                                className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+                                target='_blank'
+                                rel='noopener noreferrer'
                             >
-                            <FaLinkedin/>
-                            </svg>
-                            <span
-                            className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700"
+                                <FaDiscord className="w-5 h-5" />
+                                <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                                    Discord
+                                </span>
+                            </a>
+                            <a
+                                href="mailto:sharma.ansh2926@gmail.com"
+                                className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+                                target='_blank'
+                                rel='noopener noreferrer'
                             >
-                            LinkedIn
-                            </span>
-                        </a>
-                        
-                        <a
-                            href="https://discordapp.com/users/anshulsharma_30663"
-                            className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]" target='_blank'
-                        >
-                            <svg
-                            className="w-5"
-                            viewBox="0 0 15 15"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            >
-                            <FaDiscord/>
-                            </svg>
-                            <span
-                            className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700"
-                            >
-                            Discord
-                            </span>
-                        </a>
-                        
-                        <a
-                            href="mailto:sharma.ansh2926@gmail.com"
-                            className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]" target='_blank'
-                        >
-                            <svg
-                            className="w-5"
-                            viewBox="0 0 15 15"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            >
-                            <CiMail/>
-                            </svg>
-                            <span
-                            className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700"
-                            >
-                            Email
-                            </span>
-                        </a>
+                                <CiMail className="w-5 h-5" />
+                                <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                                    Email
+                                </span>
+                            </a>
                         </section>
-
                     </div>
                 </div>
                 <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
+                    <h2 className="mb-4 text-3xl sm:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
 
                     <form onSubmit={handleSubmit} className="space-y-8">
                         <div>
                             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-                            <input type="email" id="email" name='email' value={email} onChange={(e) => setEmail(e.target.value)} className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required />
+                            <input
+                                type="email"
+                                id="email"
+                                name='email'
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                placeholder="name@flowbite.com"
+                                required
+                            />
                         </div>
                         <div>
                             <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Name</label>
-                            <input type="text" id="name" name='Name' value={name} onChange={(e) => setName(e.target.value)} className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Your good name" required />
+                            <input
+                                type="text"
+                                id="name"
+                                name='Name'
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                placeholder="Your good name"
+                                required
+                            />
                         </div>
                         <div className="sm:col-span-2">
                             <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-                            <textarea id="message" rows="6" name='message' value={message} onChange={(e) => setMessage(e.target.value)} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                            <textarea
+                                id="message"
+                                rows="6"
+                                name='message'
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                placeholder="Leave a comment..."
+                                required
+                            ></textarea>
                         </div>
                         {error && <div className="text-red-500">{error}</div>}
-                        <button type="submit"  className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg  sm:w-fit  focus:ring-4 focus:outline-none hover:bg-blue-900 border-solid border-2 border-blue-300">Send message</button>
+                        <button
+                            type="submit"
+                            className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-600 sm:w-fit focus:ring-4 focus:outline-none hover:bg-blue-900 border-solid border-2 border-blue-300"
+                        >
+                            Send message
+                        </button>
                         <p className="text-gray-700">*Your Message will directly reach me via email</p>
                     </form>
                 </div>
-                
             </section>
-            <ToastContainer/>
+            <ToastContainer />
         </>
     );
 }
