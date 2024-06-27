@@ -3,6 +3,7 @@ function Navbar(){
     return(
         <>
             <div className="fixed flex justify-around p-5 mb-2 w-full items-center  top-0 z-10 bg-black bg-opacity-50 backdrop-blur-md ">
+                <div className="hidden md:block"></div>
                 <ul className="flex justify-between gap-10 list-none">
                     <li className="hover:border-b-4 hover:border-b-blue-400 duration-75 hover:text-lg"><a>Home</a></li>
                     <li className="hover:border-b-4 hover:border-b-blue-400 duration-75 hover:text-lg">
