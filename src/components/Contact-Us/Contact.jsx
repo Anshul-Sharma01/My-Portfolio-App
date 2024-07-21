@@ -11,7 +11,7 @@ function Contact() {
     const [message, setMessage] = useState('');
     const [error, setError] = useState(null);
     const [success, setSuccess] = useState(false);
-
+    
     async function handleSubmit(e) {
         e.preventDefault();
 
