@@ -4,7 +4,7 @@ import Contact from "./components/Contact-Us/Contact";
 import Footer from "./components/Footer/Footer";
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
-import Projects from "./components/ProjectsSection/Projects";
+import ProjectCarousel from "./components/ProjectCarousel/ProjectCarousel.jsx";
 import TechStack from "./components/TechStack/TechStack";
 
 function App() {
@@ -21,7 +21,8 @@ function App() {
         <TechStack />
       </div>
       <div id="projects">
-        <Projects />
+        {/* <Projects /> */}
+        <ProjectCarousel/>
       </div>
       <div id="contact">
         <Contact />

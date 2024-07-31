@@ -24,11 +24,11 @@ function Navbar(){
                     <button className="border-solid border-2 border-white font-semibold px-6 py-2 rounded-lg hover:text-blue-500 hover:bg-white">
                         <a href="#projects">My Projects</a>
                     </button>
-                        <button className="border-solid border-2 border-blue-400 px-6 py-2 rounded-lg hover:text-white hover:bg-blue-500">
-                            <a href='https://drive.google.com/file/d/1F1f-M38AiZhY8fvVm6zh6wSppIHSaYeH/view?usp=sharing' download="Anshul Sharma.pdf">
-                                My Resume
+                            <a href="https://drive.google.com/file/d/1TDvoPbcJsrPbBx90ausd8LuZRGIvHkSg/view?usp=sharing" className="border-solid border-2 border-blue-400 px-6 py-2 rounded-lg hover:text-white hover:bg-blue-500" target="_blank">
+                                <button >
+                                    My Resume
+                                </button>
                             </a>
-                        </button>
                 </div>
 
 

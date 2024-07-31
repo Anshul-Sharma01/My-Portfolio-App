@@ -14,6 +14,7 @@ function TechStack(){
                             <span className="mb-2 mr-2 inline-block rounded-md border-2 border-solid border-red-400 bg-[#14131a] px-4 py-2 text-[16px] font-semibold text-white"> Javascript </span>
                             <span className="mb-2 mr-2 inline-block rounded-md border-2 border-solid border-blue-400 bg-[#14131a] px-4 py-2 text-[16px] font-semibold text-white"> Tailwind </span>
                             <span className="mb-2 mr-2 inline-block rounded-md border-2 border-solid border-blue-400 bg-[#14131a] px-4 py-2 text-[16px] font-semibold text-white"> React Js </span>
+                            <span className="mb-2 mr-2 inline-block rounded-md border-2 border-solid border-orange-400 bg-[#14131a] px-4 py-2 text-[16px] font-semibold text-white"> Redux Toolkit </span>
                         </div>
                     </div>
                 </div>
@@ -50,6 +51,8 @@ function TechStack(){
                                 C </span>
                             <span className="mb-2 mr-2 inline-block rounded-md border-2 border-solid border-blue-700 bg-[#14131a] px-4 py-2 text-[16px] font-semibold text-white"> 
                             C++ </span>
+                            <span className="mb-2 mr-2 inline-block rounded-md border-2 border-solid border-red-700 bg-[#14131a] px-4 py-2 text-[16px] font-semibold text-white"> 
+                            Java </span>
                             
                         </div>
                     </div>
